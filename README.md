@@ -22,6 +22,7 @@ If an official skill is primarily about using a specific platform service, cloud
 - [.NET Agent Skills](https://github.com/dotnet/skills) - Curated .NET and C# skills for AI coding agents.
 - [ponytail](https://github.com/DietrichGebert/ponytail) - Forces AI coding agents to think like the laziest (most efficient) senior dev: simplest working solution via YAGNI, reuse, stdlib and native features first (benchmarks show ~54% less code on average, up to 94%).
 - [caveman](https://github.com/JuliusBrussee/caveman) - Claude Code / Codex-compatible skill and plugin that compresses agent replies, commit messages, review comments, and memory files to reduce verbosity and token usage while preserving technical content.
+- [Agent Workflow Pack](https://github.com/MemoAsh/agent-workflow-pack) - MIT workflow-pack examples for Claude Code and Codex that split repeated prompts into `AGENTS.md`, `SKILL.md`, templates, and verification checks. Includes a no-install PR-review trial and browser SKILL.md frontmatter checker; no external accounts, API keys, hosted backend, or paid usage required.
 
 ## Codebase Understanding
 
