@@ -64,6 +64,7 @@ If an official skill is primarily about using a specific platform service, cloud
 
 ## Collections
 
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Complete AI agency with 200+ specialized agent personalities across 16+ divisions (engineering, design, marketing, product, security, sales, finance, GIS, etc.). Each agent includes personality, workflows, deliverables, and success metrics. One-command install (or native desktop app) supporting Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and many others. Selective install by team or agent.
 - [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - Installable library of 1,500+ agentic skills with specialized plugins, bundles, workflows, and npx installer for Claude Code, Cursor, Gemini CLI, and more.
