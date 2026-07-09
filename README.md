@@ -47,6 +47,7 @@ If an official skill is primarily about using a specific platform service, cloud
 
 ## Marketing & Growth
 
+- [linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
 
 ## Research
