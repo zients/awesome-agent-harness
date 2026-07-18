@@ -48,6 +48,7 @@ If an official skill is primarily about using a specific platform service, cloud
 ## Marketing & Growth
 
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
+- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source marketing skill collection with 16 `SKILL.md` workflows for SEO, GEO, Google Ads, and Meta Ads. The repository provides the installable skills; optional live audits and account operations require connected NotFair-hosted accounts.
 
 ## Research
 
