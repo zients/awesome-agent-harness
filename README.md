@@ -69,6 +69,7 @@ If an official skill is primarily about using a specific platform service, cloud
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - Installable library of 1,500+ agentic skills with specialized plugins, bundles, workflows, and npx installer for Claude Code, Cursor, Gemini CLI, and more.
 - [Claude Code Skills & Plugins](https://github.com/alirezarezvani/claude-skills) - Large cross-agent library of skills, agents, personas, and commands for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and more.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 67 skills for Claude Code and Codex covering code quality, design, marketing, agent workflows, and mobile shipping.
 - [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - Large curated collection of Agent Skills compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
 
 ## Official Platform Skills
