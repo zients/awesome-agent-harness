@@ -1,6 +1,6 @@
 # Awesome Agent Harness
 
-A curated list of practical resources for AI coding-agent harnesses: skills, agent systems, workflows, and supporting tools for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other compatible agent environments. Compatibility varies by project.
+A curated list of practical resources for AI coding-agent harnesses, including skills and skill collections, agent systems and harness configurations, workflow systems, supporting tools, standards, and reference implementations. Covers Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other coding-agent environments. Compatibility and installation requirements are project-specific; verify them in each linked repository.
 
 ## Skills
 
@@ -72,7 +72,7 @@ A curated list of practical resources for AI coding-agent harnesses: skills, age
 ## Agent Systems & Harnesses
 
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. Turns AI coding assistants (Claude Code, Cursor, Codex, etc.) into a full video studio for animated explainers, documentaries, cinematic trailers, animations, and more.
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Complete AI agency with 200+ specialized agent personalities across 16+ divisions (engineering, design, marketing, product, security, sales, finance, GIS, etc.). Each agent includes personality, workflows, deliverables, and success metrics. One-command install (or native desktop app) supporting Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and many others. Selective install by team or agent.
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Multi-tool agent setup with 200+ specialized roles across 16+ divisions, integration-generation and installation scripts, and a companion native app for Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and more. Install selectively by team or agent.
 - [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 
