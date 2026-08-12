@@ -1,16 +1,10 @@
-# Awesome AI Agent Skills
+# Awesome Agent Harness
 
-A hand-picked list of practical Agent Skills and skill collections for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other SKILL.md-compatible AI coding agents. Compatibility varies by project.
+A curated list of practical resources for AI coding-agent harnesses: skills, agent systems, workflows, and supporting tools for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other compatible agent environments. Compatibility varies by project.
 
-## Selection Criteria
+## Skills
 
-Projects included here should be useful, installable, maintained, and relevant to real agent workflows. Preference goes to skills that improve coding agents in practical areas like planning, implementation, verification, security, research, product management, marketing, platform grounding, and long-running task execution.
-
-## Classification
-
-If an official skill is primarily about using a specific platform service, cloud product, hosted product, or product workflow, list it under Official Platform Skills first. Other skills are grouped by their primary workflow or domain, such as development workflow, research, security, product management, or marketing.
-
-## Development Workflow
+### Development Workflow
 
 - [Superpowers](https://github.com/obra/superpowers) - Agentic software development methodology with skills for brainstorming, planning, TDD, debugging, code review, verification, and subagent-driven development.
 - [Agent Skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
@@ -23,38 +17,34 @@ If an official skill is primarily about using a specific platform service, cloud
 - [ponytail](https://github.com/DietrichGebert/ponytail) - Forces AI coding agents to think like the laziest (most efficient) senior dev: simplest working solution via YAGNI, reuse, stdlib and native features first (benchmarks show ~54% less code on average, up to 94%).
 - [caveman](https://github.com/JuliusBrussee/caveman) - Claude Code / Codex-compatible skill and plugin that compresses agent replies, commit messages, review comments, and memory files to reduce verbosity and token usage while preserving technical content.
 
-## Codebase Understanding
+### Codebase Understanding
 
 - [Graphify](https://github.com/safishamsi/graphify) - CLI-backed Agent Skill that turns codebases, docs, schemas, papers, images, and videos into a queryable knowledge graph for Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Hermes, and more.
 
-## Frontend & Design
+### Frontend & Design
 
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Anti-slop frontend and design skills for AI agents, covering landing pages, redesigns, image-to-code workflows, brand kits, and visual direction.
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) - Brings Claude's powerful design engine to local agents (Cursor, Claude Code, Codex, etc.). Generates polished UI mockups, interactive prototypes, wireframes, decks, design systems and more as self-contained HTML. Supports Figma import, design system binding, and visual iteration in preview. Best with Opus.
 - [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - High-star UI/UX design intelligence skill for AI agents building professional interfaces across multiple platforms.
 
-## Presentations
+### Presentations
 
 - [open-slide](https://github.com/1weiho/open-slide) - Agent-native React slide framework with scaffolded skills for creating decks, fixed-canvas authoring, inspector comments, present mode, and static HTML/PDF export.
 
-## Media & Video Production
-
-- [OpenMontage](https://github.com/calesthio/OpenMontage) - Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. Turns AI coding assistants (Claude Code, Cursor, Codex, etc.) into a full video studio for animated explainers, documentaries, cinematic trailers, animations, and more.
-
-## Product Management
+### Product Management
 
 - [PM Skills](https://github.com/phuryn/pm-skills) - Product management skill marketplace for AI agents, covering discovery, product strategy, PRDs, prioritization, market research, analytics, go-to-market, growth, and AI shipping workflows.
 
-## Marketing & Growth
+### Marketing & Growth
 
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
 
-## Research
+### Research
 
 - [last30days](https://github.com/mvanhorn/last30days-skill) - Research recent discussion, sentiment, and trends across Reddit, X, YouTube, TikTok, Hacker News, GitHub, Polymarket, and the web.
 - [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) - Claude Code academic research pipeline for literature review, paper writing, peer review, revision, citation integrity checks, and publication workflows, with a [Codex-native adapter](https://github.com/Imbad0202/academic-research-skills-codex).
 
-## Security
+### Security
 
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - Large community library of 800+ structured cybersecurity skills for AI agents. Covers 29 security domains (threat hunting, DFIR, malware analysis, cloud security, pentesting, SOC operations, etc.) with detailed workflows mapped to MITRE ATT&CK, NIST CSF 2.0, D3FEND, ATLAS, AI RMF, and F3. Install via `npx skills add mukul975/Anthropic-Cybersecurity-Skills` or git clone. Works with Claude Code and other SKILL.md-compatible agents. (Community project, not affiliated with Anthropic.)
 - [Trail of Bits Skills](https://github.com/trailofbits/skills) - Security research, vulnerability detection, and audit workflow skills for Claude Code.
@@ -62,16 +52,13 @@ If an official skill is primarily about using a specific platform service, cloud
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA's open-source security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, and risks (including prompt injection, data exfiltration, MCP tool poisoning, and dangerous code) in SKILL.md-based skills before installation. Supports static analysis with optional LLM semantic analysis and SARIF reports.
 - [clawsec](https://github.com/prompt-security/clawsec) - Security skill suite for OpenClaw and Hermes with drift detection, audits, and skill integrity verification.
 
-## Collections
+### Skill Collections
 
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Complete AI agency with 200+ specialized agent personalities across 16+ divisions (engineering, design, marketing, product, security, sales, finance, GIS, etc.). Each agent includes personality, workflows, deliverables, and success metrics. One-command install (or native desktop app) supporting Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and many others. Selective install by team or agent.
-- [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
-- [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - Installable library of 1,500+ agentic skills with specialized plugins, bundles, workflows, and npx installer for Claude Code, Cursor, Gemini CLI, and more.
 - [Claude Code Skills & Plugins](https://github.com/alirezarezvani/claude-skills) - Large cross-agent library of skills, agents, personas, and commands for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and more.
 - [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - Large curated collection of Agent Skills compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
 
-## Official Platform Skills
+### Official Platform Skills
 
 - [Microsoft Skills](https://github.com/microsoft/skills) - Skills, MCP servers, custom agents, and `AGENTS.md` resources for grounding coding agents.
 - [Google Skills](https://github.com/google/skills) - Agent Skills for Google products and technologies, including Google Cloud, Firebase, BigQuery, Cloud Run, and GKE.
@@ -82,7 +69,14 @@ If an official skill is primarily about using a specific platform service, cloud
 - [Cursor Team Skills](https://github.com/cursor/plugins) - Cursor team skills. Standout: **thermo-nuclear-code-quality-review** (extremely strict maintainability review focused on abstraction quality, ambitious "code judo" structural simplifications, removing complexity instead of relocating it, file size discipline, and blocking spaghetti growth). Widely regarded as one of the most powerful and heavily-used internal skills at Cursor.
 - [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Official agent skills by Obsidian's creator for Obsidian Flavored Markdown (wikilinks, embeds, callouts, properties), Bases (`.base`), JSON Canvas, CLI (including plugin/theme development), and vault workflows.
 
-## References
+## Agent Systems & Harnesses
+
+- [OpenMontage](https://github.com/calesthio/OpenMontage) - Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. Turns AI coding assistants (Claude Code, Cursor, Codex, etc.) into a full video studio for animated explainers, documentaries, cinematic trailers, animations, and more.
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Complete AI agency with 200+ specialized agent personalities across 16+ divisions (engineering, design, marketing, product, security, sales, finance, GIS, etc.). Each agent includes personality, workflows, deliverables, and success metrics. One-command install (or native desktop app) supporting Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and many others. Selective install by team or agent.
+- [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
+- [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
+
+## Standards & References
 
 - [Agent Skills](https://github.com/agentskills/agentskills) - Specification and documentation for portable Agent Skills.
 - [Anthropic Skills](https://github.com/anthropics/skills) - Reference repository for Anthropic's Agent Skills implementation.
