@@ -75,6 +75,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. Turns AI coding assistants (Claude Code, Cursor, Codex, etc.) into a full video studio for animated explainers, documentaries, cinematic trailers, animations, and more.
 - [Agency Agents](https://github.com/msitarzewski/agency-agents) - Multi-tool agent setup with 200+ specialized roles across 16+ divisions, integration-generation and installation scripts, and a companion native app for Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and more. Install selectively by team or agent.
+- [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first agent operating system for portable packages, multi-agent orchestration, A2A Agent Cards, MCP integration, and runtime adapters across major coding-agent hosts.
 - [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 
