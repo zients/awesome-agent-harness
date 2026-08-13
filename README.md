@@ -38,7 +38,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 ### Marketing & Growth
 
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
-- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source marketing skill collection with 16 `SKILL.md` workflows for SEO, GEO, Google Ads, and Meta Ads. The repository provides the installable skills; optional live audits and account operations require connected NotFair-hosted accounts.
+- [NotFair](https://github.com/nowork-studio/notfair-plugin) - Open-source marketing skill collection with 45 `SKILL.md` workflows: 20 SEO/GEO skills that run locally via the user's own gcloud credentials, plus paid-ads planning. Live Google Ads, Meta Ads, X Ads, LinkedIn Ads, GA4, and Search Console MCP skills go through NotFair-hosted endpoints and require a connected NotFair account (OAuth). The plugin also self-updates from its GitHub repo unless `update_check` is disabled.
 
 ### Research
 
