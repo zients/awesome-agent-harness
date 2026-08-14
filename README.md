@@ -19,7 +19,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 ### Codebase Understanding
 
-- [Graphify](https://github.com/safishamsi/graphify) - CLI-backed Agent Skill that turns codebases, docs, schemas, papers, images, and videos into a queryable knowledge graph for Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Hermes, and more.
+- [Graphify](https://github.com/Graphify-Labs/graphify) - CLI-backed Agent Skill that turns codebases, docs, PDFs, screenshots, and diagrams into a queryable knowledge graph, with a persistent graph JSON, an interactive HTML view, and Obsidian vault export. Uses Claude vision for multimodal extraction. Documented for Claude Code, Cursor, Codex, and Gemini CLI.
 
 ### Frontend & Design
 
@@ -55,10 +55,9 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 ### Skill Collections
 
-- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - Installable library of 1,500+ agentic skills with specialized plugins, bundles, workflows, and npx installer for Claude Code, Cursor, Gemini CLI, and more.
+- [AAS Core (Agentic Awesome Skills)](https://github.com/sickn33/agentic-awesome-skills) - Local, agent-first control plane over a catalog of 2,000+ agentic skills for Claude Code and Codex. Ships a read-only stdio MCP server and an `aas` CLI for catalog search, agent-owned skill selection, manifest validation, and reproducible stack plans (`aas-stack.json`). Apply and recovery are experimental and outside the supported preview path. Formerly published as Antigravity Awesome Skills.
 - [Claude Code Skills & Plugins](https://github.com/alirezarezvani/claude-skills) - Large cross-agent library of skills, agents, personas, and commands for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and more.
 - [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 71 skills for Claude Code and Codex. Original work covers agent orchestration (Full Send, ship DAG, Codex worker fleets), A-F code review grading, AI evals, and CI gates; ships a dependency-free stdio MCP server. Note: 38 of the marketing skills are rebranded near-copies of [Marketing Skills](https://github.com/coreyhaines31/marketingskills), also listed above.
-- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) - Large curated collection of Agent Skills compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
 
 ### Official Platform Skills
 
