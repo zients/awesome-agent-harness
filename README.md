@@ -71,7 +71,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [Supabase Agent Skills](https://github.com/supabase/agent-skills) - Official Postgres best practices and Supabase platform skills for accurate database and backend code.
 - [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - Official React, Next.js best practices, web design guidelines, composition patterns, and performance optimization skills.
 - [Cursor Team Skills](https://github.com/cursor/plugins) - Cursor team skills. Standout: **thermo-nuclear-code-quality-review** (extremely strict maintainability review focused on abstraction quality, ambitious "code judo" structural simplifications, removing complexity instead of relocating it, file size discipline, and blocking spaghetti growth). Widely regarded as one of the most powerful and heavily-used internal skills at Cursor.
-- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Official agent skills by Obsidian's creator for Obsidian Flavored Markdown (wikilinks, embeds, callouts, properties), Bases (`.base`), JSON Canvas, CLI (including plugin/theme development), and vault workflows.
+- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Official agent skills by Obsidian's creator for Obsidian Flavored Markdown (wikilinks, embeds, callouts, properties), Bases (`.base`), JSON Canvas, CLI (including plugin/theme development), vault workflows, and Defuddle web-to-markdown extraction.
 
 ## Agent Systems & Harnesses
 
