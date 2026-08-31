@@ -80,6 +80,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Agent QA](https://github.com/vostride/agent-qa) - TypeScript application-QA harness for natural-language web/mobile tests with persistent test memory, self-healing flows, structured evidence, CLI/dashboard access, and an official MCP server. Requires Node.js 24+ and a configured model provider; provider usage may incur charges. The current FSL-1.1-ALv2 release is source-available.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Local-first, self-hosted TypeScript agent runtime and MCP bridge with persistent sessions, governed tool access, approvals, credentials, memory, audit/replay, and Docker/Kubernetes/worker execution backends. Configure a supported model provider as described in the installation guide; isolation depends on the selected backend and deployment configuration.
 
 ## Standards & References
 
