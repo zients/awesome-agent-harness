@@ -80,6 +80,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [ECC](https://github.com/affaan-m/ECC) - Massive agent harness performance optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Agent QA](https://github.com/vostride/agent-qa) - TypeScript application-QA harness for natural-language web/mobile tests with persistent test memory, self-healing flows, structured evidence, CLI/dashboard access, and an official MCP server. Requires Node.js 24+ and a configured model provider; provider usage may incur charges. The current FSL-1.1-ALv2 release is source-available.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries; each task runs in a dedicated branch/worktree and a merge queue owns risk-based review. Open-source Python CLI (MIT), installed globally from npm as @yylo/cli; no external accounts or hosted services required.
 
 ## Standards & References
 
