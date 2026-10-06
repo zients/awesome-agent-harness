@@ -30,7 +30,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 ### Presentations
 
-- [open-slide](https://github.com/1weiho/open-slide) - Agent-native React slide framework with scaffolded skills for creating decks, fixed-canvas authoring, inspector comments, present mode, and static HTML/PDF export.
+- [open-slide](https://github.com/open-slide/open-slide) - Agent-native React slide framework with scaffolded skills for creating decks, fixed-canvas authoring, inspector comments, present mode, and static HTML/PDF export.
 
 ### Product Management
 
