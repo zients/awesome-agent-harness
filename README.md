@@ -24,6 +24,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 ### Frontend & Design
 
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Anti-slop frontend and design skills for AI agents, covering landing pages, redesigns, image-to-code workflows, brand kits, and visual direction.
+- [Impeccable](https://github.com/pbakaus/impeccable) - Design skill for AI coding agents that builds on Anthropic's `frontend-design`. Records product context in `PRODUCT.md`, then exposes 24 `/impeccable` commands (`shape`, `craft`, `critique`, `audit`, `polish`, `harden`, and more) plus 60 deterministic detector rules for common AI-generated design tells that run via CLI or browser extension without an LLM or API key. Install with `npx impeccable install`.
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) - Brings Claude's powerful design engine to local agents (Cursor, Claude Code, Codex, etc.). Generates polished UI mockups, interactive prototypes, wireframes, decks, design systems and more as self-contained HTML. Supports Figma import, design system binding, and visual iteration in preview. Best with Opus.
 - [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - High-star UI/UX design intelligence skill for AI agents building professional interfaces across multiple platforms.
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Editorial-quality diagrams as self-contained HTML/SVG, with no build step, JavaScript, or external image dependency. Ships 27 visual types (architecture, flowchart, sequence, state machine, ER, timeline, swimlane, quadrant, radar, loop, pyramid, Gantt, and more) in minimal light, minimal dark, and full-editorial variants, plus semantic patterns, brand-token onboarding from a website, optional accessible motion, and redrawing of existing draw.io or Mermaid sources. Installs as a plugin marketplace for Claude Code, Codex, and Pi.
@@ -31,6 +32,10 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 ### Presentations
 
 - [open-slide](https://github.com/open-slide/open-slide) - Agent-native React slide framework with scaffolded skills for creating decks, fixed-canvas authoring, inspector comments, present mode, and static HTML/PDF export.
+
+### Video
+
+- [HyperFrames](https://github.com/heygen-com/hyperframes) - HeyGen's open-source framework for rendering HTML, CSS, media, and seekable animations into deterministic MP4 videos. Ships 21 agent skills with a `/hyperframes` router that guides planning, authoring, linting, preview, and rendering, plus a Claude Code plugin marketplace and standalone `npx skills add` install for Codex, Cursor, Gemini CLI, and others.
 
 ### Product Management
 
@@ -81,6 +86,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
 - [Agent QA](https://github.com/vostride/agent-qa) - TypeScript application-QA harness for natural-language web/mobile tests with persistent test memory, self-healing flows, structured evidence, CLI/dashboard access, and an official MCP server. Requires Node.js 24+ and a configured model provider; provider usage may incur charges. The current FSL-1.1-ALv2 release is source-available.
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Local-first, self-hosted TypeScript agent runtime and MCP bridge with persistent sessions, governed tool access, approvals, credentials, memory, audit/replay, and Docker/Kubernetes/worker execution backends. Configure a supported model provider as described in the installation guide; isolation depends on the selected backend and deployment configuration.
+- [T3 Code](https://github.com/pingdotgg/t3code) - Open-source control surface for coding agents already installed and signed in on your machine (Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity), with web, desktop, iOS, and Android clients. Remote access works over LAN, Tailscale, SSH, or the hosted T3 Connect relay; exposing it remotely grants control of an agent that can edit files and run commands. Early-stage project.
 
 ## Standards & References
 
