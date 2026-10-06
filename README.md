@@ -28,7 +28,6 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [Karpathy-Inspired Claude Code Guidelines](https://github.com/multica-ai/andrej-karpathy-skills) - Lightweight coding-agent guidelines for clearer assumptions, simpler code, surgical changes, and goal-driven execution.
 - [Matt Pocock Skills](https://github.com/mattpocock/skills) - Practical engineering workflow skills for coding agents, including **grill-me** / **grill-with-docs** (one-question-at-a-time interviewing to sharpen plans, clarify requirements, and extract domain language before implementation), TDD, debugging, PRDs, architecture reviews, and handoffs. Installs via npx.
 - [Waza](https://github.com/tw93/Waza) - Engineering habits packaged as skills that AI agents can run.
-- [three-man-team](https://github.com/russelleNVy/three-man-team) - Structured Architect, Builder, and Reviewer workflow for AI-assisted development.
 - [.NET Agent Skills](https://github.com/dotnet/skills) - Curated .NET and C# skills for AI coding agents.
 - [ponytail](https://github.com/DietrichGebert/ponytail) - Pushes coding agents toward the simplest working solution: YAGNI, reuse, and stdlib or native features first. The project's benchmarks report ~54% less code on average.
 - [caveman](https://github.com/JuliusBrussee/caveman) - Claude Code / Codex-compatible skill and plugin that compresses agent replies, commit messages, review comments, and memory files to reduce verbosity and token usage while preserving technical content.
