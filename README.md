@@ -73,6 +73,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [Codex Security](https://github.com/openai/codex-security) - OpenAI's official CLI and TypeScript SDK for defining security policy and finding, validating, and fixing vulnerabilities in a codebase (`npx @openai/codex-security scan <dir>`). Requires Node.js 22.13+, Python 3.10+, and a Codex login; some cybersecurity requests and protected findings require approval through OpenAI's Trusted Access for Cyber program.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA's open-source security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, and risks (including prompt injection, data exfiltration, MCP tool poisoning, and dangerous code) in SKILL.md-based skills before installation. Supports static analysis with optional LLM semantic analysis and SARIF reports.
 - [clawsec](https://github.com/prompt-security/clawsec) - Security skill suite for OpenClaw and Hermes with drift detection, audits, and skill integrity verification.
+- [reverse-engineer-anything (REA)](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) - Skill and local CLI/MCP workflows for investigating shipped binaries and JavaScript/Electron apps with source-linked evidence and explicit unknowns. Install REA separately; deep native analysis requires your own Hopper, Ghidra, or IDA. REA is MIT, with no REA account or hosted API requirement; analysis-engine licenses and the connected agent's model costs are separate.
 
 ### Official Platform Skills
 
