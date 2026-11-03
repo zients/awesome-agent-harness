@@ -31,6 +31,8 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 - [.NET Agent Skills](https://github.com/dotnet/skills) - Curated .NET and C# skills for AI coding agents.
 - [ponytail](https://github.com/DietrichGebert/ponytail) - Pushes coding agents toward the simplest working solution: YAGNI, reuse, and stdlib or native features first. The project's benchmarks report ~54% less code on average.
 - [caveman](https://github.com/JuliusBrussee/caveman) - Claude Code / Codex-compatible skill and plugin that compresses agent replies, commit messages, review comments, and memory files to reduce verbosity and token usage while preserving technical content.
+- [Worktrunk](https://github.com/max-sixty/worktrunk) - Git worktree CLI and companion agent skills for parallel coding workflows, with worktree switching, lifecycle hooks, status views, and merge support. Core operations run locally with Git; optional LLM commit messages use configured model tooling and may incur charges.
+- [Agent Desktop](https://github.com/vercel-labs/agent-desktop) - CLI, C library, and agent skills for operating macOS, Windows, and Linux applications through native accessibility trees and JSON snapshots. Requires platform accessibility permissions or services; capabilities vary by OS. Native operations run locally; the optional JEV helper sends screen descriptions to a configured model provider.
 
 ### Codebase Understanding
 
@@ -57,6 +59,7 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 - [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
 - [NotFair](https://github.com/nowork-studio/notfair-plugin) - Open-source marketing skill collection with 45 `SKILL.md` workflows: 20 SEO/GEO skills that run locally via the user's own gcloud credentials, plus paid-ads planning. Live Google Ads, Meta Ads, X Ads, LinkedIn Ads, GA4, and Search Console MCP skills go through NotFair-hosted endpoints and require a connected NotFair account (OAuth). The plugin also self-updates from its GitHub repo unless `update_check` is disabled.
+- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - SEO and GEO audit workflows for Claude Code, with specialist agents and local Python helpers for crawling, JavaScript rendering, schema and content checks, drift monitoring, and reporting. Requires Python 3.11–3.14; browser-based checks need Chromium. Core audits require no external SEO API account; model usage and optional API or extension services have separate requirements and costs.
 
 ### Research
 
