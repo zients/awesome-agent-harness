@@ -1,6 +1,6 @@
 # Awesome Agent Harness
 
-A curated list of practical resources for AI coding-agent harnesses, including skills and skill collections, agent systems and harness configurations, workflow systems, supporting tools, standards, and reference implementations. Covers Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other coding-agent environments. Compatibility and installation requirements are project-specific; verify them in each linked repository.
+A curated list of skills, workflows, tools, and harnesses for coding agents. Check each project's setup and agent compatibility; model usage and external services may incur charges. Entries note required accounts, hosted dependencies, and notable license restrictions.
 
 ## Contents
 
@@ -22,99 +22,99 @@ A curated list of practical resources for AI coding-agent harnesses, including s
 
 ### Development Workflow
 
-- [Superpowers](https://github.com/obra/superpowers) - Agentic software development methodology with skills for brainstorming, planning, TDD, debugging, code review, verification, and subagent-driven development.
-- [Agent Skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
-- [planning-with-files](https://github.com/OthmanAdi/planning-with-files) - Persistent file-based planning for long-running agentic tasks across Claude Code, Codex, Hermes, and other SKILL.md-compatible agents.
-- [Karpathy-Inspired Claude Code Guidelines](https://github.com/multica-ai/andrej-karpathy-skills) - Lightweight coding-agent guidelines for clearer assumptions, simpler code, surgical changes, and goal-driven execution.
-- [Matt Pocock Skills](https://github.com/mattpocock/skills) - Practical engineering workflow skills for coding agents, including **grill-me** / **grill-with-docs** (one-question-at-a-time interviewing to sharpen plans, clarify requirements, and extract domain language before implementation), TDD, debugging, PRDs, architecture reviews, and handoffs. Installs via npx.
-- [Waza](https://github.com/tw93/Waza) - Engineering habits packaged as skills that AI agents can run.
-- [.NET Agent Skills](https://github.com/dotnet/skills) - Curated .NET and C# skills for AI coding agents.
-- [ponytail](https://github.com/DietrichGebert/ponytail) - Pushes coding agents toward the simplest working solution: YAGNI, reuse, and stdlib or native features first. The project's benchmarks report ~54% less code on average.
-- [caveman](https://github.com/JuliusBrussee/caveman) - Claude Code / Codex-compatible skill and plugin that compresses agent replies, commit messages, review comments, and memory files to reduce verbosity and token usage while preserving technical content.
-- [Worktrunk](https://github.com/max-sixty/worktrunk) - Git worktree CLI and companion agent skills for parallel coding workflows, with worktree switching, lifecycle hooks, status views, and merge support. Core operations run locally with Git; optional LLM commit messages use configured model tooling and may incur charges.
-- [Agent Desktop](https://github.com/vercel-labs/agent-desktop) - CLI, C library, and agent skills for operating macOS, Windows, and Linux applications through native accessibility trees and JSON snapshots. Requires platform accessibility permissions or services; capabilities vary by OS. Native operations run locally; the optional JEV helper sends screen descriptions to a configured model provider.
-- [OpenSpec](https://github.com/Fission-AI/OpenSpec) - CLI and agent skills for managing development proposals, design documents, requirements and scenarios, implementation tasks, spec validation, and change archiving. Supports Claude Code, Codex, Cursor, and other coding agents. Skills require the OpenSpec CLI; standalone binaries are available, while npm installs need Node.js 22.12+. Model usage follows the selected agent.
+- [Addy Osmani's Agent Skills](https://github.com/addyosmani/agent-skills) - Engineering skills for specifications, planning, implementation, testing, code review, web performance, and release.
+- [Agent Desktop](https://github.com/vercel-labs/agent-desktop) - CLI and skills for desktop automation through native accessibility APIs on macOS, Windows, and Linux. Requires OS permissions/services; the optional JEV helper sends screen descriptions to a configured model.
+- [caveman](https://github.com/JuliusBrussee/caveman) - Reply and writing style skill that reduces verbosity while preserving technical details. Supports Claude Code and Codex.
+- [Karpathy-Inspired Guidelines](https://github.com/multica-ai/andrej-karpathy-skills) - Coding guidelines for stating assumptions, keeping changes small, avoiding unnecessary complexity, and verifying outcomes.
+- [Matt Pocock Skills](https://github.com/mattpocock/skills) - Engineering skills for requirements interviews (`grill-me`, `grill-with-docs`), TDD, debugging, architecture, planning, and handoffs.
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) - Specification workflows for proposals, design, tasks, spec validation, and change archiving. Requires the OpenSpec CLI; integrates with Claude Code, Codex, and other agents.
+- [planning-with-files](https://github.com/OthmanAdi/planning-with-files) - Persistent file-based planning for long-running agent tasks, with plans, findings, and progress kept in the project.
+- [ponytail](https://github.com/DietrichGebert/ponytail) - Coding guidelines focused on YAGNI, reuse, standard libraries, and simpler implementations.
+- [Superpowers](https://github.com/obra/superpowers) - Development workflow for brainstorming, planning, TDD, debugging, code review, and verification.
+- [Waza](https://github.com/tw93/Waza) - Engineering playbooks for planning, UI work, debugging, review, writing, research, and agent setup audits.
+- [Worktrunk](https://github.com/max-sixty/worktrunk) - Git worktree CLI and skills for parallel coding workflows, lifecycle hooks, status views, and merge support. Requires Git; optional commit generation uses a model.
 
 ### Codebase Understanding
 
-- [Graphify](https://github.com/Graphify-Labs/graphify) - CLI-backed Agent Skill that turns codebases, docs, PDFs, screenshots, and diagrams into a queryable knowledge graph, with a persistent graph JSON, an interactive HTML view, and Obsidian vault export. Uses Claude vision for multimodal extraction. Documented for Claude Code, Cursor, Codex, and Gemini CLI.
+- [Graphify](https://github.com/Graphify-Labs/graphify) - CLI and skill for querying code and documents as a knowledge graph, with HTML and Obsidian views. Multimodal extraction uses Claude vision.
 
 ### Frontend & Design
 
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Anti-slop frontend and design skills for AI agents, covering landing pages, redesigns, image-to-code workflows, brand kits, and visual direction.
-- [Impeccable](https://github.com/pbakaus/impeccable) - Design skill for AI coding agents that builds on Anthropic's `frontend-design`. Records product context in `PRODUCT.md`, then exposes 24 `/impeccable` commands (`shape`, `craft`, `critique`, `audit`, `polish`, `harden`, and more) plus 60 deterministic detector rules for common AI-generated design tells that run via CLI or browser extension without an LLM or API key. Install with `npx impeccable install`.
-- [baoyu-design](https://github.com/JimLiu/baoyu-design) - Design skill for local agents (Claude Code, Cursor, Codex, and others) that generates UI mockups, interactive prototypes, wireframes, decks, and design systems as self-contained HTML. Supports Figma import, design system binding, and visual iteration in preview. Works best with Claude Opus.
-- [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - UI/UX design intelligence skill for AI agents building interfaces across multiple platforms and frameworks.
-- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Editorial-quality diagrams as self-contained HTML/SVG with no build step or external dependencies. Ships 27 visual types (architecture, flowchart, sequence, ER, timeline, swimlane, Gantt, and more) in light, dark, and editorial variants, with brand-token onboarding from a website and redrawing of draw.io or Mermaid sources. Installs as a plugin marketplace for Claude Code, Codex, and Pi.
+- [baoyu-design](https://github.com/JimLiu/baoyu-design) - UI mockups, prototypes, wireframes, decks, and design systems as HTML, with Figma import and visual iteration.
+- [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Technical diagrams as HTML/SVG, with visual templates, brand onboarding, and theme support. No build step.
+- [Impeccable](https://github.com/pbakaus/impeccable) - Frontend workflows built around product context, with critique, audit, and polish commands plus deterministic checks via CLI or browser extension.
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Frontend design skills for landing pages, redesigns, image-to-code workflows, brand kits, and visual direction.
+- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Web and mobile interface guidance covering styles, palettes, typography, layouts, accessibility, and implementation patterns.
 
 ### Presentations & Video
 
-- [open-slide](https://github.com/open-slide/open-slide) - Agent-native React slide framework with scaffolded skills for creating decks, fixed-canvas authoring, inspector comments, present mode, and static HTML/PDF export.
-- [HyperFrames](https://github.com/heygen-com/hyperframes) - HeyGen's open-source framework for rendering HTML, CSS, media, and seekable animations into deterministic MP4 videos. Ships 21 agent skills with a `/hyperframes` router that guides planning, authoring, linting, preview, and rendering, plus a Claude Code plugin marketplace and standalone `npx skills add` install for Codex, Cursor, Gemini CLI, and others.
+- [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML/CSS video rendering with agent skills for authoring, preview, validation, and MP4 export.
+- [open-slide](https://github.com/open-slide/open-slide) - React slide framework and agent skills for fixed-canvas authoring, preview comments, presentation mode, and HTML/PDF export.
 
 ### Product Management
 
-- [PM Skills](https://github.com/phuryn/pm-skills) - Product management skill marketplace for AI agents, covering discovery, product strategy, PRDs, prioritization, market research, analytics, go-to-market, growth, and AI shipping workflows.
+- [PM Skills](https://github.com/phuryn/pm-skills) - Product workflows for discovery, strategy, PRDs, prioritization, research, analytics, launches, and growth.
 
 ### Marketing & Growth
 
-- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing and growth skills for AI agents, covering CRO, copywriting, SEO, analytics, paid ads, lifecycle messaging, pricing, launch, and revenue operations.
-- [NotFair](https://github.com/nowork-studio/notfair-plugin) - Open-source marketing skill collection with 45 `SKILL.md` workflows: 20 SEO/GEO skills that run locally via the user's own gcloud credentials, plus paid-ads planning. Live Google Ads, Meta Ads, X Ads, LinkedIn Ads, GA4, and Search Console MCP skills go through NotFair-hosted endpoints and require a connected NotFair account (OAuth). The plugin also self-updates from its GitHub repo unless `update_check` is disabled.
-- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - SEO and GEO audit workflows for Claude Code, with specialist agents and local Python helpers for crawling, JavaScript rendering, schema and content checks, drift monitoring, and reporting. Requires Python 3.11–3.14; browser-based checks need Chromium. Core audits require no external SEO API account; model usage and optional API or extension services have separate requirements and costs.
+- [Claude SEO](https://github.com/AgriciDaniel/claude-seo) - Claude Code SEO/GEO audits with local crawling, rendering, schema checks, drift tracking, and reports. Requires Python 3.11–3.14; browser checks need Chromium. External SEO APIs are optional.
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Marketing workflows for copywriting, SEO, analytics, advertising, lifecycle messaging, pricing, launches, and conversion optimization.
+- [NotFair](https://github.com/nowork-studio/notfair-plugin) - SEO/GEO and marketing workflows. Local Google helpers use gcloud credentials; hosted integrations require a NotFair account. Includes a configurable update checker.
 
 ### Research
 
-- [last30days](https://github.com/mvanhorn/last30days-skill) - Research recent discussion, sentiment, and trends across Reddit, X, YouTube, TikTok, Hacker News, GitHub, Polymarket, and the web.
-- [World Monitor](https://github.com/koala73/worldmonitor) - Agent-native real-time global intelligence platform with 25 packaged agent skills covering country briefs, conflict events, maritime and flight tracking, supply-chain disruption, internet outages, cyber threats, and markets. Ships an MCP server, REST API, CLI, and Python/Ruby/Go SDKs. AGPL-3.0 and self-hostable via docker-compose; most feeds need free-tier signups. The packaged skills target the hosted `api.worldmonitor.app` endpoints and require a WorldMonitor API key.
-- [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) - Claude Code academic research pipeline for literature review, paper writing, peer review, revision, citation integrity checks, and publication workflows, with a [Codex-native adapter](https://github.com/Imbad0202/academic-research-skills-codex).
+- [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) - Claude Code pipeline for literature review, writing, peer review, revision, and citation checks; a [Codex adapter](https://github.com/Imbad0202/academic-research-skills-codex) is also available.
+- [last30days](https://github.com/mvanhorn/last30days-skill) - Research recent discussion, sentiment, and trends across social platforms, developer communities, GitHub, and the web.
+- [World Monitor](https://github.com/koala73/worldmonitor) - Global news, conflict, infrastructure, and market research through agent skills, CLI/MCP, and APIs. AGPL-3.0; hosted MCP tool calls require an API key or OAuth.
 
 ### Security
 
-- [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) - Skill router for reverse engineering, authorized penetration testing, and security research. Routes tasks across 85 `SKILL.md` modules for Android, iOS, binaries, .NET, frontend JS, malware, firmware, exploit development, APIs, supply chain, LLM security, and CTF workflows, with a scope and authorization gate before acting on a target. Client-neutral (Claude Code, Codex, Cursor, OpenCode). Requires Java, Node.js 22.12+, Python 3, and local security tooling; several helper scripts are PowerShell-only.
-- [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - Large community library of 800+ structured cybersecurity skills for AI agents. Covers 29 security domains (threat hunting, DFIR, malware analysis, cloud security, pentesting, SOC operations, etc.) with detailed workflows mapped to MITRE ATT&CK, NIST CSF 2.0, D3FEND, ATLAS, AI RMF, and F3. Install via `npx skills add mukul975/Anthropic-Cybersecurity-Skills` or git clone. Works with Claude Code and other SKILL.md-compatible agents. (Community project, not affiliated with Anthropic.)
-- [Trail of Bits Skills](https://github.com/trailofbits/skills) - Security research, vulnerability detection, and audit workflow skills for Claude Code.
-- [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill) - Official Cloudflare coding-agent skill for multi-phase security audits. Orchestrates parallel recon and vulnerability-hunting agents, adversarial validation, structured `findings.json`, and an independent verification pass to focus on exploitable vulnerabilities with real impact. Requires an agent with subagent/parallel execution support and Node.js for schema validation.
-- [Codex Security](https://github.com/openai/codex-security) - OpenAI's official CLI and TypeScript SDK for defining security policy and finding, validating, and fixing vulnerabilities in a codebase (`npx @openai/codex-security scan <dir>`). Requires Node.js 22.13+, Python 3.10+, and a Codex login; some cybersecurity requests and protected findings require approval through OpenAI's Trusted Access for Cyber program.
-- [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA's open-source security scanner for AI agent skills. Detects vulnerabilities, malicious patterns, and risks (including prompt injection, data exfiltration, MCP tool poisoning, and dangerous code) in SKILL.md-based skills before installation. Supports static analysis with optional LLM semantic analysis and SARIF reports.
-- [clawsec](https://github.com/prompt-security/clawsec) - Security skill suite for OpenClaw and Hermes with drift detection, audits, and skill integrity verification.
-- [reverse-engineer-anything (REA)](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) - Skill and local CLI/MCP workflows for investigating shipped binaries and JavaScript/Electron apps with source-linked evidence and explicit unknowns. Install REA separately with a Node.js release supported by its [installation guide](https://github.com/morluto/rea/blob/main/docs/installation.md); deep native analysis uses an external engine such as Hopper, Ghidra, IDA, or Kuna. REA is MIT, with no REA account or hosted API requirement; analysis-engine licenses and the connected agent's model costs are separate.
+- [clawsec](https://github.com/prompt-security/clawsec) - Security workflows for OpenClaw and Hermes, including drift checks, audits, and skill integrity verification. AGPL-3.0.
+- [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill) - Security audits with parallel investigation, adversarial validation, and structured findings. Requires an agent with subagent support and Node.js for validation.
+- [Codex Security](https://github.com/openai/codex-security) - Official CLI and TypeScript SDK for finding, validating, and fixing code vulnerabilities. Requires supported Node.js/Python runtimes and Codex authentication; some access needs Trusted Access for Cyber.
+- [Community Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - Community workflows for threat hunting, incident response, malware analysis, cloud security, and penetration testing. Not affiliated with Anthropic.
+- [Reverse Engineer Anything (REA)](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) - Skill and local CLI/MCP for binary and JavaScript/Electron investigation with source-linked evidence. Requires [REA/Node.js setup](https://github.com/morluto/rea/blob/main/docs/installation.md); deep native analysis needs an engine such as Ghidra, Hopper, IDA, or Kuna.
+- [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) - Router for reverse engineering, authorized testing, and security research. Requires Java, Node.js 22.12+, Python, and local analysis tools; some helpers require PowerShell.
+- [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA scanner for vulnerabilities and malicious patterns in agent skills, with static checks, optional model analysis, and SARIF output.
+- [Trail of Bits Skills](https://github.com/trailofbits/skills) - Security analysis, testing, and audit workflows for Claude Code and Codex. CC BY-SA 4.0.
 
 ### Official Platform Skills
 
-- [Microsoft Skills](https://github.com/microsoft/skills) - Skills, MCP servers, custom agents, and `AGENTS.md` resources for grounding coding agents.
-- [Google Skills](https://github.com/google/skills) - Agent Skills for Google products and technologies, including Google Cloud, Firebase, BigQuery, Cloud Run, and GKE.
-- [Google Workspace CLI](https://github.com/googleworkspace/cli) - One CLI for Gmail, Drive, Docs, Calendar, Sheets, Chat and more Workspace APIs. Dynamically built from Discovery Service. Ships with 100+ Agent Skills (SKILL.md files), per-API service skills, helper commands (e.g. +send, +agenda), and curated workflow recipes. Install via `npx skills add https://github.com/googleworkspace/cli`.
-- [Gemini API Skills](https://github.com/google-gemini/gemini-skills) - Skills for building Gemini API, SDK, Live API, and model interaction workflows.
-- [Supabase Agent Skills](https://github.com/supabase/agent-skills) - Official Postgres best practices and Supabase platform skills for accurate database and backend code.
-- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - Official React, Next.js best practices, web design guidelines, composition patterns, and performance optimization skills.
-- [Cursor Team Skills](https://github.com/cursor/plugins) - Skills and plugins from the Cursor team, including **thermo-nuclear-code-quality-review**, a strict maintainability review focused on abstraction quality, structural simplification, removing complexity instead of relocating it, and file size discipline.
-- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Official agent skills by Obsidian's creator for Obsidian Flavored Markdown (wikilinks, embeds, callouts, properties), Bases (`.base`), JSON Canvas, CLI (including plugin/theme development), vault workflows, and Defuddle web-to-markdown extraction.
+- [Cursor Team Skills](https://github.com/cursor/plugins) - Cursor team's skills and plugins for development workflows, including strict maintainability and code-quality reviews.
+- [Gemini API Skills](https://github.com/google-gemini/gemini-skills) - Skills for Gemini APIs, SDKs, Live API, and model integration.
+- [Google Skills](https://github.com/google/skills) - Skills for Google products, including Google Cloud, Firebase, BigQuery, Cloud Run, and GKE.
+- [Google Workspace CLI](https://github.com/googleworkspace/cli) - Discovery-based CLI and agent skills for Google Workspace APIs, including Gmail, Drive, Docs, Calendar, Sheets, and Chat. Requires Google authentication.
+- [Microsoft Skills](https://github.com/microsoft/skills) - Skills, MCP servers, and custom agents for Microsoft products, SDKs, and cloud services.
+- [.NET Agent Skills](https://github.com/dotnet/skills) - Official .NET/C# skills and host-specific custom agents maintained by the .NET team.
+- [Obsidian Skills](https://github.com/kepano/obsidian-skills) - Skills for Obsidian Markdown, properties, Bases, Canvas, CLI workflows, and web-to-Markdown extraction.
+- [Supabase Agent Skills](https://github.com/supabase/agent-skills) - Postgres and backend development guidance for agents working with Supabase.
+- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - React, Next.js, composition, performance, and web design guidance from Vercel.
 
 ## Skill Collections
 
-- [AAS Core (Agentic Awesome Skills)](https://github.com/sickn33/agentic-awesome-skills) - Local, agent-first control plane over a catalog of 2,000+ agentic skills for Claude Code and Codex. Ships a read-only stdio MCP server and an `aas` CLI for catalog search, agent-owned skill selection, manifest validation, and reproducible stack plans (`aas-stack.json`). Apply and recovery are experimental and outside the supported preview path. Formerly published as Antigravity Awesome Skills.
-- [Claude Code Skills & Plugins](https://github.com/alirezarezvani/claude-skills) - Large cross-agent library of skills, agents, personas, and commands for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and more.
-- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 71 skills for Claude Code and Codex. Original work covers agent orchestration (Full Send, ship DAG, Codex worker fleets), A-F code review grading, AI evals, and CI gates; ships a dependency-free stdio MCP server. Note: 38 of the marketing skills are rebranded near-copies of [Marketing Skills](https://github.com/coreyhaines31/marketingskills), also listed above.
+- [AAS Core](https://github.com/sickn33/agentic-awesome-skills) - Skill catalog with a local CLI/MCP for search, agent-owned selection, validation, and plan previews. Apply and recovery remain experimental.
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Cross-domain specialist role library with installation and conversion scripts for multiple coding agents.
+- [Claude Code Skills & Plugins](https://github.com/alirezarezvani/claude-skills) - Cross-domain skills, plugins, and agent templates for engineering, operations, marketing, security, leadership, and research.
+- [Suede AI Skills](https://github.com/JasonColapietro/suede-creator-skills) - Orchestration, graded reviews, CI gates, and marketing skills with a local MCP server. Includes [adapted upstream material](https://github.com/JasonColapietro/suede-creator-skills/blob/main/NOTICE.md), including [Marketing Skills](https://github.com/coreyhaines31/marketingskills).
 
 ## Agent Systems & Harnesses
 
-- [OpenMontage](https://github.com/calesthio/OpenMontage) - Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. Turns AI coding assistants (Claude Code, Cursor, Codex, etc.) into a full video studio for animated explainers, documentaries, cinematic trailers, animations, and more.
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - Multi-tool agent setup with 200+ specialized roles across 16+ divisions, integration-generation and installation scripts, and a companion native app for Claude Code, Cursor, Codex, Gemini CLI, OpenClaw, and more. Install selectively by team or agent.
-- [ECC](https://github.com/affaan-m/ECC) - Large agent harness optimization system with 260+ skills, subagents, memory, security tools, and cross-platform orchestration for Claude Code, Cursor, Codex, and more.
-- [gstack](https://github.com/garrytan/gstack) - Garry Tan's personal Claude Code setup with 23 opinionated agent skills/tools serving roles like CEO, Engineer, Designer, QA, and more.
-- [Agent QA](https://github.com/vostride/agent-qa) - TypeScript application-QA harness for natural-language web/mobile tests with persistent test memory, self-healing flows, structured evidence, CLI/dashboard access, and an official MCP server. Requires Node.js 24+ and a configured model provider; provider usage may incur charges. The current FSL-1.1-ALv2 release is source-available.
-- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Local-first, self-hosted TypeScript agent runtime and MCP bridge with persistent sessions, governed tool access, approvals, credentials, memory, audit/replay, and Docker/Kubernetes/worker execution backends. Configure a supported model provider as described in the installation guide; isolation depends on the selected backend and deployment configuration.
-- [T3 Code](https://github.com/pingdotgg/t3code) - Open-source control surface for coding agents already installed and signed in on your machine (Claude Code, Codex, Cursor, Grok Build, OpenCode, and Antigravity), with web, desktop, iOS, and Android clients. Remote access works over LAN, Tailscale, SSH, or the hosted T3 Connect relay; exposing it remotely grants control of an agent that can edit files and run commands. Early-stage project.
-- [Sandcastle](https://github.com/mattpocock/sandcastle) - TypeScript SDK and companion CLI for orchestrating Claude Code, Codex, and other coding agents, with sandbox providers, Git branch strategies, hooks, and merge handling. Supports native OS sandboxes, Docker/Podman, and optional cloud providers. Requires Git, a configured agent, and a supported execution backend; isolation depends on the provider and configuration. Model usage and optional cloud services may incur charges.
+- [Agent QA](https://github.com/vostride/agent-qa) - Web/mobile QA harness with natural-language tests, persistent memory, evidence, and CLI/MCP access. Requires Node.js 24+ and a model provider. FSL-1.1-ALv2 (source-available).
+- [ECC](https://github.com/affaan-m/ECC) - Integrated skills, agents, hooks, memory, security checks, and cross-platform configuration for coding-agent workflows.
+- [gstack](https://github.com/garrytan/gstack) - Claude Code setup with product, engineering, design, review, and QA workflows.
+- [OpenMontage](https://github.com/calesthio/OpenMontage) - Agent skills, tools, and pipelines for video research, scripting, assets, editing, and rendering. AGPL-3.0; optional generation services require separate credentials.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Self-hosted agent runtime with persistent sessions, tool governance, memory, approvals, and audit/replay. Requires a model provider; isolation depends on the configured backend.
+- [Sandcastle](https://github.com/mattpocock/sandcastle) - TypeScript SDK and CLI for agent orchestration, sandbox providers, Git branches, hooks, and merges. Requires Git and a configured agent; isolation depends on the backend.
+- [T3 Code](https://github.com/pingdotgg/t3code) - Web, desktop, and mobile control surface for existing coding agents. Requires installed, authenticated agents; remote access exposes their file and command permissions.
 
 ## Standards & References
 
-- [Agent Skills](https://github.com/agentskills/agentskills) - Specification and documentation for portable Agent Skills.
-- [Anthropic Skills](https://github.com/anthropics/skills) - Reference repository for Anthropic's Agent Skills implementation.
+- [Agent Skills Specification](https://github.com/agentskills/agentskills) - Specification and documentation for portable Agent Skills.
+- [Anthropic Skills Reference](https://github.com/anthropics/skills) - Anthropic's reference skills and implementation examples.
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for scope, placement, and submission requirements.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for scope, placement, and entry guidelines.
 
 ## License
 

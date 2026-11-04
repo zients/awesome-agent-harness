@@ -19,9 +19,16 @@ Unofficial or community-built resources are welcome when the linked project itse
 ## Where It Belongs
 
 - **Skills:** Standalone skills and narrowly scoped supporting tools, grouped by their primary workflow or domain. Vertical skill collections belong in their subject category. Official platform skills belong under `Skills > Official Platform Skills`.
-- **Skill Collections:** Cross-domain libraries whose main value is a collection of installable skills, plugins, or related agent resources.
+- **Skill Collections:** Cross-domain libraries whose main value is a collection of installable skills, plugins, agent roles, or related resources.
 - **Agent Systems & Harnesses:** Complete, integrated setups that combine capabilities such as agent roles, configuration, tools, orchestration, memory, or a runtime. A multi-step or multi-role skill workflow without a complete integrated setup belongs in `Skills`.
 - **Standards & References:** Specifications, reference implementations, and other foundational resources.
+
+## Entry Style
+
+- Sort entries alphabetically within each category.
+- Describe the primary purpose in one sentence. Keep additional sentences limited to essential setup, account, hosted service, or license constraints.
+- Avoid star counts, exact skill totals, promotional benchmarks, and long installation instructions. Keep setup details in the linked project.
+- Use clear project names and distinguish community projects from official resources.
 
 ## Out Of Scope
 
