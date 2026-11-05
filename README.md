@@ -42,7 +42,9 @@ A curated list of skills, workflows, tools, and harnesses for coding agents. Che
 
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) - UI mockups, prototypes, wireframes, decks, and design systems as HTML, with Figma import and visual iteration.
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) - Technical diagrams as HTML/SVG, with visual templates, brand onboarding, and theme support. No build step.
+- [Hallmark](https://github.com/Nutlope/hallmark) - Frontend design skill for building, redesigning, and auditing pages with material-based themes and lint checks for generic AI-generated patterns. Requires Node.js 18+; browser-rendered checks need `puppeteer-core` and Chrome, and optional image generation needs a Together AI API key.
 - [Impeccable](https://github.com/pbakaus/impeccable) - Frontend workflows built around product context, with critique, audit, and polish commands plus deterministic checks via CLI or browser extension.
+- [Jakub Krehel Skills](https://github.com/jakubkrehel/skills) - Interface skills for reviewing and improving accessibility, layout, typography, color, UI polish, and product copy, with tools for component states, variants, and design-to-code builds. Figma-based builds require a Figma MCP server.
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Frontend design skills for landing pages, redesigns, image-to-code workflows, brand kits, and visual direction.
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Web and mobile interface guidance covering styles, palettes, typography, layouts, accessibility, and implementation patterns.
 
