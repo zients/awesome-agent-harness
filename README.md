@@ -48,7 +48,7 @@ A curated list of skills, workflows, tools, and harnesses for coding agents. Che
 ### Presentations & Video
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML/CSS video rendering with agent skills for authoring, preview, validation, and MP4 export.
-- [OpenMontage](https://github.com/calesthio/OpenMontage) - Agent skills, tools, and pipelines for video research, scripting, assets, editing, and rendering. AGPL-3.0; optional generation services require separate credentials.
+- [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) - Agent skills, tools, and pipelines for video research, scripting, assets, editing, and rendering. AGPL-3.0; optional generation services require separate credentials.
 - [open-slide](https://github.com/open-slide/open-slide) - React slide framework and agent skills for fixed-canvas authoring, preview comments, presentation mode, and HTML/PDF export.
 
 ### Product & Marketing
@@ -68,7 +68,6 @@ A curated list of skills, workflows, tools, and harnesses for coding agents. Che
 - [clawsec](https://github.com/prompt-security/clawsec) - Security workflows for OpenClaw and Hermes, including drift checks, audits, and skill integrity verification. AGPL-3.0.
 - [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill) - Security audits with parallel investigation, adversarial validation, and structured findings. Requires an agent with subagent support and Node.js for validation.
 - [Codex Security](https://github.com/openai/codex-security) - Official CLI and TypeScript SDK for finding, validating, and fixing code vulnerabilities. Requires Codex authentication; some access needs Trusted Access for Cyber.
-- [Community Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - Community workflows for threat hunting, incident response, malware analysis, cloud security, and penetration testing. Not affiliated with Anthropic.
 - [Reverse Engineer Anything (REA)](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) - Skill and local CLI/MCP for binary and JavaScript/Electron investigation with source-linked evidence. Requires Node.js; deep native analysis needs an engine such as Ghidra or IDA.
 - [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) - Router for reverse engineering, authorized testing, and security research. Requires Java, Node.js, Python, and local analysis tools.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA scanner for vulnerabilities and malicious patterns in agent skills, with static checks, optional model analysis, and SARIF output.
